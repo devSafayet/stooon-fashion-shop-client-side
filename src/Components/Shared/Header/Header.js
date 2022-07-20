@@ -29,26 +29,27 @@ const Header = () => {
     return (
         <div>
             {/* header section  */}
-            <section className='bg-base-200 flex flex-col'>
-                <div className='flex-1'>
+            <div className='bg-base-200 lg:flex justify-between'>
+                <div className='flex gap-3 ps-3'>
                     <h3>  (939) 353-1107</h3>
                     <h3> support@example.com</h3>
                 </div>
                 <div className=''>
                     <h2> FREE SHIPPING - on all orders over $35*</h2>
                 </div>
-                <div className=''>
+                <div className='flex'>
                     <li>{user ? <button className="btn btn-ghost" onClick={logout} >SIGN OUT</button> : <Link to="/login">Login</Link>}</li>
-
                     <li><Link to="/register">Register</Link></li>
+                </div>
+                <div>
 
                 </div>
-            </section>
+            </div>
             {/* navigation sections */}
-            <section>
-                <div class='drawer drawer-end' data-theme={dark ? "dark" : "light"}>
+            <section className=''>
+                <div class='bg-yellow-500 drawer drawer-end' data-theme={dark ? "dark" : "light"}>
                     <input id='my-drawer-3' type='checkbox' class='drawer-toggle' />
-                    <div class='drawer-content flex flex-col'>
+                    <div class='drawer-content flex flex-col bg-black'>
                         <div class='w-full navbar bg-base-100 top-0 z-50 lg:px-20'>
                             {pathname.includes("dashboard") && (
                                 <label
