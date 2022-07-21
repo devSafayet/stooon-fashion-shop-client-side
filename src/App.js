@@ -1,5 +1,5 @@
 import Header from './Components/Shared/Header/Header';
-import Home from './Components/Home/Home';
+import Home from './Components/Home/Home/Home';
 import { Route, Routes } from 'react-router';
 
 function App() {
