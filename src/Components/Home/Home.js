@@ -5,6 +5,7 @@ import Collections from './Collections/Collections';
 import OfferImg from './OfferImg/OfferImg';
 import Products from './Products/Products';
 import Sale from './Sale/Sale';
+import Subcribes from './Subcribes/Subcribes';
 import TraindProducts from './TraindProducts/TraindProducts';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <TraindProducts />
             <Collection />
             <OfferImg />
+            <Subcribes />
         </div>
 
 
