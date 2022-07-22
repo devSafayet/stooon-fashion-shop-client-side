@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Outerwear New Collection",
+        "img": "https://i.ibb.co/sRtyBcQ/woman-285f1a7d.png",
+        "vendor": "Geek",
+        "price": "190"
+    },
+    {
+        "id": 2,
+        "name": "Summer HoT Collection",
+        "img": "https://i.ibb.co/1sTFfJX/woman1-b58d4262.png",
+        "vendor": "Geek",
+        "price": "320"
+    },
+    {
+        "id": 3,
+        "name": "New Arrivals",
+        "img": "https://i.ibb.co/C77YpHg/woman4-6c41e1ce.png",
+        "vendor": "Geek",
+        "price": "300"
+    }
+]
