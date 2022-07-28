@@ -3,84 +3,84 @@
         "id": 1,
         "name": "Faxon Cavas Low-Top Sneaker",
         "img": "https://i.ibb.co/FsJL5Y7/8.png",
-        "vendor": "Geek",
-        "price": "450"
+        "vendor": "GEEK",
+        "price": "450.00"
     },
     {
         "id": 2,
         "name": "Faxon Canvas Low-Top Sneaker",
         "img": "https://i.ibb.co/9gCw9Ww/2.png",
-        "vendor": "Geek",
-        "price": "400"
+        "vendor": "GEEK",
+        "price": "400.00"
     },
     {
         "id": 3,
         "name": "Vicose-Cashmere Scarf",
         "img": "https://i.ibb.co/8DvcN35/1.png",
-        "vendor": "Geek",
-        "price": "420"
+        "vendor": "GEEK",
+        "price": "420.00"
     },
     {
         "id": 4,
         "name": "FPlaid Cotton Oxford",
         "img": "https://i.ibb.co/McjnMbt/9.png",
-        "vendor": "Geek",
-        "price": "120"
+        "vendor": "GEEK",
+        "price": "120.00"
     },
     {
         "id": 5,
         "name": "Faxon Canvas Low-Top Sneaker",
         "img": "https://i.ibb.co/SN3kndW/4.png",
-        "vendor": "Geek",
-        "price": "350"
+        "vendor": "GEEK",
+        "price": "350.00"
     },
     {
         "id": 6,
         "name": "Viscose-Cashmere Scarf",
         "img": "https://i.ibb.co/vP2Hfgb/5.png",
-        "vendor": "Geek",
-        "price": "200"
+        "vendor": "GEEK",
+        "price": "200.00"
     },
     {
         "id": 7,
         "name": "Green Dress For Woman",
         "img": "https://i.ibb.co/8rCB5zV/product10-d71c44ec.png",
-        "vendor": "Geek",
-        "price": "138"
+        "vendor": "GEEK",
+        "price": "138.00"
     },
     {
         "id": 8,
         "name": "Dress For Woman",
         "img": "https://i.ibb.co/yf9Pwzg/7.png",
-        "vendor": "Geek",
-        "price": "210"
+        "vendor": "GEEK",
+        "price": "210.00"
     },
     {
         "id": 9,
         "name": "Woman Dress",
         "img": "https://i.ibb.co/7RDFKYk/6.png",
-        "vendor": "Geek",
-        "price": "210"
+        "vendor": "GEEK",
+        "price": "210.00"
     },
     {
         "id": 10,
         "name": "T-Shirt For Women",
         "img": "https://i.ibb.co/RyKVMpv/product9-60333e3e.png",
-        "vendor": "Geek",
-        "price": "99"
+        "vendor": "GEEK",
+        "price": "99.00"
     },
     {
         "id": 11,
         "name": "V-Neck Dress",
         "img": "https://i.ibb.co/p1jxygg/product7-6533a8ae.png",
-        "vendor": "Geek",
-        "price": "150"
+        "vendor": "GEEK",
+        "price": "150.00"
     },
     {
         "id": 12,
         "name": "Inspired Slim Ankle Leg Jean",
         "img": "https://i.ibb.co/Dz8MHZv/3.png",
-        "vendor": "Geek",
-        "price": "100"
+        "vendor": "GEEK",
+        "price": "100.00"
     }
 ]

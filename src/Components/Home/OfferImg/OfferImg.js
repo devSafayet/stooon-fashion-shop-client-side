@@ -3,7 +3,7 @@ import offerimg from '../../../images/discount.png';
 
 const OfferImg = () => {
     return (
-        <div className='ml-12'>
+        <div className='grid justify-items-center'>
             <img src={offerimg} alt="" />
         </div>
     );

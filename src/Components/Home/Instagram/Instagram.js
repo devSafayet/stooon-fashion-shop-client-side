@@ -8,10 +8,10 @@ import img6 from '../../../images/instagram/6.png';
 
 const Instagram = () => {
     return (
-        <div className='text-center mt-10 mb-10'>
+        <div className='text-center mt-12 mb-10'>
             <h1 className='text-2xl'><span className="text-orange-500">@ <a href="#">FOLLOW</a></span> US ON INSTAGRAM</h1>
             <h3 className='text-xl' style={{ color: "#DBD0CC" }}>shop our instagram</h3>
-            <div className='pt-8 pb-10 lg:flex justify-center' >
+            <div className='pt-8 pb-10 flex justify-center' >
                 <img style={{ width: "15%" }} src={img1} alt="" />
                 <img style={{ width: "15%" }} src={img2} alt="" />
                 <img style={{ width: "15%" }} src={img3} alt="" />

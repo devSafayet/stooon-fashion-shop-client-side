@@ -10,7 +10,7 @@ const Banner = () => {
                         <h1 class="mb-5 text-5xl">30% OFF</h1>
                         <h1 class="mb-5 mr-14 text-4xl font-semibold text-black">FAVOURITE CLOTHING </h1>
 
-                        <button class="btn bg-white text-black hover:text-white">GET COLLECTION</button>
+                        <button class="btn bg-white text-black hover:text-white hover:bg-orange-400">GET COLLECTION</button>
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -23,7 +23,7 @@ const Banner = () => {
                     <div class="max-w-md">
                         <h1 class="mb-14 text-5xl pr-28">30% OFF</h1>
 
-                        <button class="mt-14 btn bg-white text-black hover:text-white">GET COLLECTION</button>
+                        <button class="mt-14 btn bg-white text-black hover:text-white hover:bg-orange-400">GET COLLECTION</button>
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
