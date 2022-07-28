@@ -19,11 +19,11 @@ const Header = () => {
     };
     const menu = <>
         <li><Link to="/">HOME</Link></li>
-        <li><Link to="/dashboard">DASHBOARD</Link></li>
+        <li><Link to="#">DASHBOARD</Link></li>
         <li><Link to="/shop">SHOP</Link></li>
-        <li><Link to="/pages">PAGES</Link></li>
-        <li><Link to="/about">ABOUT US</Link></li>
-        <li><Link to="/contact">CONTACT US</Link></li>
+        <li><Link to="#">PAGES</Link></li>
+        <li><Link to="#">ABOUT US</Link></li>
+        <li><Link to="#">CONTACT US</Link></li>
 
     </>
 
@@ -51,10 +51,12 @@ const Header = () => {
                     <div className='flex gap-1'>
                         <i class="fa fa-user pt-1"></i>
 
-                        <li style={{ listStyle: "none" }}>{user ? <button className="btn btn-ghost" onClick={logout} >SIGN OUT</button> : <Link to="/login">Login</Link>}</li>
+                        <li style={{ listStyle: "none" }}>{
+                            user ? <button className="btn btn-ghost" onClick={logout} >SIGN OUT</button> : <Link to="/login">Login</Link>}</li>
                     </div>
                     <div className='flex gap-1 pr-4'>
                         <i class="fa fa-lock pt-1"></i>
+
                         <li style={{ listStyle: "none" }}><Link to="/register">Register</Link></li>
                     </div>
 
