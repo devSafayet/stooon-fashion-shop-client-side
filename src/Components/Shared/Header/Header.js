@@ -19,11 +19,11 @@ const Header = () => {
     };
     const menu = <>
         <li><Link to="/">HOME</Link></li>
-        <li><Link to="#">DASHBOARD</Link></li>
+        <li><Link to="/">DASHBOARD</Link></li>
         <li><Link to="/shop">SHOP</Link></li>
-        <li><Link to="#">PAGES</Link></li>
-        <li><Link to="#">ABOUT US</Link></li>
-        <li><Link to="#">CONTACT US</Link></li>
+        <li><Link to="/">PAGES</Link></li>
+        <li><Link to="/">ABOUT US</Link></li>
+        <li><Link to="/">CONTACT US</Link></li>
 
     </>
 
@@ -31,7 +31,7 @@ const Header = () => {
         <div>
             {/* header section  */}
             <div className='bg-base-200 lg:flex justify-between pt-2 pb-2'>
-                <div className='flex gap-3 ps-3 pl-4' style={{ color: "#AEADA4" }}>
+                <div className='lg:flex gap-3 ps-3 pl-2' style={{ color: "#AEADA4" }}>
                     <div className='flex gap-1'>
                         <i class="fa fa-phone pt-1" aria-hidden="true"></i>
                         <h3>  +880963-8557887</h3>
@@ -43,10 +43,10 @@ const Header = () => {
 
 
                 </div>
-                <div className=''>
+                <div className='pl-2'>
                     <h2> FREE SHIPPING - on all orders over $35*</h2>
                 </div>
-                <div className='flex gap-3'>
+                <div className='lg:flex gap-3 pl-2'>
 
                     <div className='flex gap-1'>
                         <i class="fa fa-user pt-1"></i>
@@ -63,53 +63,7 @@ const Header = () => {
                 </div>
 
             </div>
-            {/* navigation sections */}
-            {/* <div>
-                <div class='bg-yellow-500 drawer drawer-end'>
-                    <input id='my-drawer-3' type='checkbox' class='drawer-toggle' />
-                    <div class='drawer-content flex flex-col bg-black'>
-                        <div class='w-full navbar bg-base-100 top-0 z-50 lg:px-20'>
 
-                            <div class='flex-1 px-2 mx-2 text-2xl'>
-                                <img src={logo} alt="" />
-                            </div>
-                            <div class='flex-none lg:hidden'>
-                                <label for='my-drawer-3' class='btn btn-square btn-ghost'>
-                                    <svg
-                                        xmlns='http://www.w3.org/2000/svg'
-                                        fill='none'
-                                        viewBox='0 0 24 24'
-                                        class='inline-block w-6 h-6 stroke-current'
-                                    >
-                                        <path
-                                            stroke-linecap='round'
-                                            stroke-linejoin='round'
-                                            stroke-width='2'
-                                            d='M4 6h16M4 12h16M4 18h16'
-                                        ></path>
-                                    </svg>
-                                </label>
-                            </div>
-
-                            <div class='flex-none hidden lg:block'>
-                                <ul class='menu menu-horizontal gap-x-2'>
-                                    {menuItems}
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class='drawer-side'>
-                        <label for='my-drawer-3' class='drawer-overlay'></label>
-
-                        <ul class='menu p-4 overflow-y-auto w-80 bg-base-100'>
-                            {menuItems}
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div> */}
 
             <div className="navbar sticky top-0 z-50 ">
                 <div className="navbar-start">

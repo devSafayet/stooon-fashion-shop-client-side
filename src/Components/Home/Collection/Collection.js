@@ -6,7 +6,7 @@ const Collection = () => {
     return (
         <div className='text-center'>
             <h1 className='text-center font-semibold text-2xl tab tab-bordered tab-active'>COLLECTION</h1>
-            <div className='justify-center grid grid-cols-1 lg:grid-cols-2 gap-2 m-10'>
+            <div className='justify-center grid grid-cols-1 lg:grid-cols-2 gap-2 mt-8 mb-8'>
                 <div class="hero p-32 bg-img1">
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
